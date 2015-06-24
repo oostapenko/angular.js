@@ -246,6 +246,12 @@ npm run update-webdriver
 
 *(You should only need to do this once.)*
 
+In case of invalid drivers installing try to update [Protractor][protractor] to latest version (and try install drivers again):
+
+```
+npm install protractor@latest --save
+```
+
 Since Protractor works by interacting with a running application, we need to start our web server:
 
 ```
